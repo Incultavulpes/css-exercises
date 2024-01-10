@@ -1,0 +1,17 @@
+/* Shared properties within the button here*/
+.button1, 
+.button2 {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
+/* First button */
+.button1 {
+    color: white;
+    background-color: black;
+}
+
+/* Second Button */
+.button2 {
+    background-color: yellow;
+}
