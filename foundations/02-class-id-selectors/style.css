@@ -1,0 +1,24 @@
+/* First we're going to start with the multiple class selector */
+
+/* We know that we need to set the same background for all the class selectors, but we'll start with the multiple class selector because we like to do this now */
+.class1.multipleclass1 {
+    font-size: 24px;
+}
+
+/* We will now style the ID selectors in a very job like way for this exercise that is awesome */
+#anid1 {
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+
+#anid2 {
+    background-color: rgb(144,238,144);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* We're making the styles for the class selectors all share the same class selectors so this will affect the first multiple class selector with them */
+.class1 {
+    background-color: rgb(255,182,193);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
