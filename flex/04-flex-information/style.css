@@ -10,6 +10,49 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.hitbox {
+  display: flex;
+  margin-top: 32px;
+  gap: 52px;
+  justify-content: center;
+}
+
+.first-item {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  justify-content: center;
+}
+
+
+.second-item {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  justify-content: center;
+}
+
+.third-item {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  justify-content: center;
+}
+
+.fourth-item {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  justify-content: center;
+}
+
+.text {
+  justify-content: center;
+  text-align: center;
 }
 
 /* do not edit this footer */
