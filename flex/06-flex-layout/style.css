@@ -25,3 +25,106 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Items added for the solution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header .left-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.header .right-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+/* Editing the header links */
+.header .left-links a {
+  color: slategrey;
+  text-decoration: none;
+}
+
+.header .right-links a {
+  color: slategrey;
+  text-decoration: none;
+}
+
+.header .left-links a:visited {
+  color: slategrey;
+}
+
+.header .right-links a:visited {
+  color: slategrey;
+}
+
+/* Editing the content middle */
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  padding: 8px;
+}
+
+/* Editting the footer and the links */
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: lightgray;
+}
+
+.footer .left-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.footer .right-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+/* Editing the footer links */
+.footer .left-links a {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+.footer .right-links a {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+.footer .left-links a:visited {
+  color: dimgrey;
+}
+
+.footer .right-links a:visited {
+  color: dimgrey;
+}
